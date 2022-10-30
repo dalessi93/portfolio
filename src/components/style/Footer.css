@@ -1,0 +1,35 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    width: 100%;
+    height: 3.75rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.footer .socials ul {
+    margin-top:0.3rem;
+    margin-bottom:0;
+    padding: 0;
+}
+
+.footer .socials ul li {
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+
+.footer .socials ul li a {
+    color: white;
+    font-size: larger;
+}
+
+.footer .socials ul li a :hover{
+    color: aqua;
+}
+
+.footer .email a {
+    color: white;
+    text-decoration: none;
+}

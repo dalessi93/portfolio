@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
+
+.navBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.75rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBar .logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 20px;
+}
+.navBar .logo span {
+    color: white;
+    margin: 0 0.5rem 0 1rem;
+}
+.navBar .menu {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.navBar .menu ul{
+    margin: 0.625rem 0 0.625rem 0;
+}
+.navBar ul li {
+    display: inline;
+    margin: 0 0.5rem 0 0.5rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+.navBar ul .resume-button {
+    margin-left: 0;
+}
+.navBar ul .resume-button .resume-link {
+    margin: 10px;
+    margin-top: 10px;
+    padding: 0.6rem;
+    border: 1px solid white;
+    border-radius: 40px;
+    color: aqua
+}
+.navBar ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 20px;
+}
+.navBar ul li a:hover{
+    color: aqua;
+}
+.navBar ul .resume-button .resume-link:hover {
+    background-color: rgba(0, 255, 255, 0.2);
+}

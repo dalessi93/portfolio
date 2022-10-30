@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.about {
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow-y: scroll; */
+    margin-right: 10rem;
+    margin-left: 10rem;
+
+}
+.about .introduction {
+    text-align: left;
+    color: white;
+}
+
+.about .introduction h5{
+    font-size: 1.5rem;
+    margin: 0.3rem 0 0.3rem 0;
+    font-family: 'Staatliches', cursive;
+}
+
+.about .introduction h1{
+    font-size: 4rem;
+    margin: 0.3rem 0 0.3rem 0;
+    font-family: 'Staatliches', cursive;
+}
+
+.about .introduction p{
+    font-size: 2rem;
+    margin: 0.3rem 0 0.3rem 0;
+    font-family: 'Staatliches', cursive;
+}
